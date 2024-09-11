@@ -5,10 +5,10 @@ public class Ej2Int {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int numero = 0;
+		double numero = 0.0;
 		
 		System.out.println("Introduzca un numero :");
-		numero = teclado.nextInt();
+		numero = teclado.nextDouble();
 
 		if (numero < 0) {
 			numero = -numero;
